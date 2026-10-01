@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms_Tittle</title>
+  </head>
+  <body>
+    <h1>Apply for a Sigma Web Development</h1>
+    <br />
+    <form action="post">
+      <div>
+        <label for="username">Username : </label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          style="height: 20px; width: 200px"
+          autofocus
+        />
+        <br />
+        <br />
+        <label for="password"> Password : </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          style="height: 20px; width: 200px"
+        />
+      </div>
+      <br />
+      <div>
+        <input type="radio" id="male" name="Gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <p></p>
+      <div>
+        <input type="checkbox" id="terms" name="terms" />
+        <label for="terms">I agree to the terms and conditions</label>
+        <br />
+        <p></p>
+        <button type="submit">Submit</button>
+      </div>
+      <p></p>
+      <div>
+        <label for="comment">Comment : </label>
+        <br />
+        <textarea
+          id="comment"
+          name="comment"
+          rows="4"
+          cols="50"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+      <p></p>
+      <div>
+        <label for="country">Country : </label>
+        <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="uk">UK</option>
+          <option value="australia">Australia</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
